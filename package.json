@@ -1,0 +1,41 @@
+{
+  "name": "node_imagemin_es6",
+  "version": "0.1.0",
+  "description": "Image compression include JPEG, PNG, GIF",
+  "main": "app.js",
+  "dependencies": {
+    "file-type": "^3.8.0",
+    "imagemin": "^5.2.2",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "scripts": {
+    "test": "npm start -q 60 -p D:\\02-MyWork\\node_imagemin\\01.JPG",
+    "start": "babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityRay/node-imagemin-es6.git"
+  },
+  "author": {
+    "name": "Ray Lin",
+    "email": "ray102467@gmail.com",
+    "url": "https://github.com/CityRay"
+  },
+  "keywords": [
+    "node",
+    "imagemin",
+    "optimization"
+  ],
+  "homepage": "https://github.com/CityRay/node-imagemin-es6",
+  "bugs": {
+    "url": "https://github.com/CityRay/node-imagemin-es6/issues"
+  },
+  "license": "MIT"
+}
